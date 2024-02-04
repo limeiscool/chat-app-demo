@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "author": "limeiscool",
+  "version": "1.0.0",
+  "description": "\"a chat app\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/limeiscool/chat-app-demo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
