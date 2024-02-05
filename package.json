@@ -2,7 +2,7 @@
   "name": "chat-app",
   "author": "limeiscool",
   "version": "1.0.0",
-  "description": "\"a chat app\"",
+  "description": "a chat app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "socket.io": "^4.7.4"
   }
 }
