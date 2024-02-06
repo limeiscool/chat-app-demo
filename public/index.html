@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./public/styles.css">
   <title>Login</title>
+  
 </head>
 <body>
-  <div>login</div>
-  <input type="text" name="username" id="username">
-  <input type="text" name="password" id="password">
-  <!-- create form -->
+  <div class="main-container">
+    <form action="/login" method="post">
+      <div>
+        <h2>Login</h2>
+      </div>
+      <div id="user-div">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+      <div id="pass-div">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+      <button type="submit">Log In</button>
+      <a href="./signup">sign up</a>
+    </form>
+  </div>
 </body>
 </html>

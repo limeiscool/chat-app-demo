@@ -3,11 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Register</title>
+  <link rel="stylesheet" href="./public/styles.css">
+  <title>Sign up</title>
 </head>
 <body>
-  <div>register</div>
-  <!-- create form -->
+  <div class="main-container">
+    <form action="/registration" method="post">
+      <div>
+        <h2>Sign up</h2>
+      </div>
+      <div id="user-div">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+      <div id="pass-div">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+      <button type="submit">Sign Up</button>
+      <a href="./">log in</a>
+    </form>
+  </div>
 </body>
 </html>
